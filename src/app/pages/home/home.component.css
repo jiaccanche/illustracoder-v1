@@ -1,0 +1,658 @@
+#main .logo{
+    width: 20%;
+    margin-top: 50px;
+}
+
+#main .animation-container{
+    position: relative;
+}
+
+#main .animation-container .brackets{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+#main .animation-container .brackets.show{
+    opacity: 1;
+}
+
+#main .animation-container .illustracoder{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    font-size: 150px;
+    font-family: 'Oswald-Bold';
+    font-weight: 700;
+    text-align: center;
+}
+
+#main .animation-container .compose{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+#main .animation-container .compose.show{
+    opacity: 1;
+}
+
+#main .animation-container .btn-booking{
+    position: absolute;
+    bottom: 10%;
+    text-decoration: none;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background-color: #FFF;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2599F4;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+#main .animation-container .btn-booking.show{
+    opacity: 1;
+}
+
+#lets-talk{
+    background-color: #FFF;
+    padding: 50px 20px;
+    margin: 20px;
+    border-radius: 20px;
+    margin-top: 200px;
+}
+
+#lets-talk img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+#lets-talk .text-container{
+    margin-top: 5%;
+}
+
+#lets-talk .text-container h3{
+    font-family: 'Montserrat-Black';
+    font-size: 50px;
+    color: #2599F4;
+}
+
+#lets-talk .text-container p{
+    font-size: 30px;
+    color: #5A5A5A;
+    margin: 50px 0px;
+}
+
+#lets-talk .text-container a{
+    font-family: 'Montserrat-Black';
+    font-size: 30px;
+    color: #2599F4;
+    text-decoration: none;
+}
+
+#services{
+    position: relative;
+    margin-top: 200px;
+}
+
+#services .swiper{
+    padding: 50px 0px;
+}
+
+#services .swiper-slide .bg-image img{
+    width: 100%;
+    height: auto;
+}
+
+#services .swiper-slide a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFF;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #000;
+}
+
+#services marquee{
+    position: absolute;
+    top: -350px;
+}
+
+#services marquee h1{
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 1200px;
+    font-family: 'Oswald-Bold';
+    font-weight: 700;
+    text-align: center;
+}
+
+#discover{
+    margin-top: 200px;
+}
+
+#discover .phrase-container{
+    position: relative;
+    background-image: url('/assets/images/discover-bg.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
+
+#discover .phrase-container img{
+    position: absolute;
+    top: 0;
+    width: 20%;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+#discover .phrase-container p{
+    color: #FFF;
+    font-family: 'Montserrat-Bold';
+}
+
+#discover .phrase-container p .first{
+    font-size: 125px;
+    text-align: center;
+    display: block;
+    line-height: 0.9;
+}
+
+#discover .phrase-container p .second{
+    font-size: 100px;
+    text-align: center;
+    display: block;
+    line-height: 0.9;
+}
+
+#discover .phrase-container p .third{
+    font-size: 128px;
+    text-align: center;
+    display: block;
+    line-height: 0.9;
+}
+
+#discover .phrase-container p .fourth{
+    font-size: 132px;
+    text-align: center;
+    display: block;
+    line-height: 0.9;
+}
+
+#discover .phrase-container p .fifth{
+    font-size: 163px;
+    text-align: center;
+    display: block;
+    line-height: 0.9;
+}
+
+#discover .background-container{
+    position: relative;
+    background-image: url('/assets/images/discover-image.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#discover .background-container a{
+    width: fit-content;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 60px;
+    background-color: #013750;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 50px;
+    border-radius: 40px;
+}
+
+#portfolio{
+    background-color: #FFF;
+    padding: 50px 20px;
+    margin: 20px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+#portfolio img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    margin: 100px 0px;
+}
+
+footer h2{
+    font-family: 'Montserrat-Bold';
+    font-size: 64px;
+    text-align: center;
+    color: #FFF;
+}
+
+footer ul{
+    list-style-type: none;
+    display: block;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer ul li:first-child{
+    margin-right: 20px;
+}
+
+footer ul li a{
+    color: #FFF;
+    font-size: 50px;
+}
+
+@media (max-width: 1200px){
+    #main .animation-container .illustracoder{
+        font-size: 120px;
+    }
+
+    #lets-talk{
+        margin-top: 100px;
+    }
+
+    #lets-talk .text-container h3{
+        font-size: 25px;
+    }
+
+    #lets-talk .text-container p{
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+    #lets-talk .text-container a{
+        font-size: 15px;
+    }
+
+    #services marquee{
+        top: -300px;
+    }
+
+    #services marquee h1{
+        font-size: 800px;
+    }
+
+    #services .swiper-slide a{
+        font-size: 15px;
+    }
+
+    #discover .phrase-container p .first{
+        font-size: 63.5px;
+    }
+
+    #discover .phrase-container p .second{
+        font-size: 50px;
+    }
+
+    #discover .phrase-container p .third{
+        font-size: 64px;
+    }
+
+    #discover .phrase-container p .fourth{
+        font-size: 66px;
+    }
+
+    #discover .phrase-container p .fifth{
+        font-size: 81.5px;
+    }
+
+    #discover .phrase-container{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #discover .background-container a{
+        font-size: 30px;
+        bottom: 0px;
+        padding: 10px 40px;
+    }
+
+    footer h2{
+        font-size: 32px;
+    }
+
+    footer ul li a{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1024px){
+    #main .animation-container .illustracoder{
+        font-size: 90px;
+    }
+
+    #lets-talk{
+        margin-top: 100px;
+    }
+
+    #lets-talk img{
+        width: 60%;
+    }
+
+    #lets-talk .text-container h3{
+        font-size: 25px;
+    }
+
+    #lets-talk .text-container p{
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+    #lets-talk .text-container a{
+        font-size: 15px;
+    }
+
+    #services marquee{
+        top: -200px;
+    }
+
+    #services marquee h1{
+        font-size: 600px;
+    }
+
+    #services .swiper-slide a{
+        font-size: 15px;
+    }
+
+    #discover .phrase-container{
+        background-size: cover;
+        margin-bottom: 100px;
+    }
+
+    #discover .phrase-container p .first{
+        font-size: 150px;
+    }
+
+    #discover .phrase-container p .second{
+        font-size: 115px;
+    }
+
+    #discover .phrase-container p .third{
+        font-size: 150px;
+    }
+
+    #discover .phrase-container p .fourth{
+        font-size: 160px;
+    }
+
+    #discover .phrase-container p .fifth{
+        font-size: 200px;
+    }
+
+    #discover .phrase-container{
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+
+    #discover .background-container{
+        height: 600px;
+    }
+
+    #discover .background-container a{
+        font-size: 35px;
+    }
+
+    #portfolio img{
+        margin-bottom: 20px;
+    }
+
+    footer h2{
+        font-size: 50px;
+    }
+
+    footer ul li a{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px){
+    #main .logo{
+        width: 30%;
+    }
+
+    #main .animation-container .brackets{
+        width: 100%;
+    }
+
+    #main .animation-container .illustracoder{
+        font-size: 70px;
+    }
+
+    #main .animation-container .compose{
+        width: 70%;
+    }
+
+    #main .animation-container .btn-booking{
+        bottom: -20px;
+        font-size: 15px;
+    }
+
+    #lets-talk{
+        margin-top: 100px;
+    }
+
+    #lets-talk img{
+        width: 60%;
+    }
+
+    #lets-talk .text-container h3{
+        font-size: 25px;
+    }
+
+    #lets-talk .text-container p{
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+    #lets-talk .text-container a{
+        font-size: 15px;
+    }
+
+    #services{
+        margin-top: 200px;
+    }
+
+    /* #services .swiper-slide a{
+        font-size: 13px;
+        width: 100%;
+        height: 50px;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    #discover{
+        margin-top: 200px;
+    }
+
+    #discover .phrase-container p .first{
+        font-size: 90px;
+    }
+
+    #discover .phrase-container p .second{
+        font-size: 70px;
+    }
+
+    #discover .phrase-container p .third{
+        font-size: 90px;
+    }
+
+    #discover .phrase-container p .fourth{
+        font-size: 100px;
+    }
+
+    #discover .phrase-container p .fifth{
+        font-size: 130px;
+    }
+
+    #discover .phrase-container{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    #discover .background-container{
+        height: 700px;
+    }
+
+    #discover .background-container a{
+        font-size: 35px;
+    }
+
+    #portfolio img{
+        margin-bottom: 20px;
+    }
+
+    footer h2{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 480px){
+    #main .logo{
+        width: 30%;
+    }
+
+    #main .animation-container .brackets{
+        width: 100%;
+    }
+
+    #main .animation-container .illustracoder{
+        font-size: 45px;
+    }
+
+    #main .animation-container .compose{
+        width: 70%;
+    }
+
+    #main .animation-container .btn-booking{
+        bottom: -40px;
+        font-size: 15px;
+    }
+
+    #lets-talk{
+        margin-top: 100px;
+    }
+
+    #lets-talk img{
+        width: 100%;
+    }
+
+    #lets-talk .text-container h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #lets-talk .text-container p{
+        font-size: 15px;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    #lets-talk .text-container a{
+        font-size: 15px;
+        text-align: center;
+        display: block;
+    }
+
+    #services{
+        margin-top: 200px;
+    }
+
+    #services marquee h1{
+        font-size: 800px;
+    }
+
+    #discover{
+        margin-top: 200px;
+    }
+
+    #discover .phrase-container p .first{
+        font-size: 60px;
+    }
+
+    #discover .phrase-container p .second{
+        font-size: 45px;
+    }
+
+    #discover .phrase-container p .third{
+        font-size: 60px;
+    }
+
+    #discover .phrase-container p .fourth{
+        font-size: 65px;
+    }
+
+    #discover .phrase-container p .fifth{
+        font-size: 80px;
+    }
+
+    #discover .phrase-container{
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    #discover .background-container{
+        height: 370px;
+    }
+
+    #discover .background-container a{
+        font-size: 12px;
+    }
+
+    #portfolio img{
+        margin-bottom: 20px;
+    }
+
+    footer h2{
+        font-size: 25px;
+    }
+
+    footer ul li a{
+        font-size: 30px;
+    }
+}
